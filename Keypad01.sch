@@ -1,0 +1,548 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5050 2200 0    50   ~ 0
+KEYROW0
+Text Label 5050 2650 0    50   ~ 0
+KEYROW1
+Text Label 5050 3150 0    50   ~ 0
+KEYROW2
+Text Label 5050 3650 0    50   ~ 0
+KEYROW3
+Text Label 5050 4200 0    50   ~ 0
+KEYROW4
+Text Label 5050 4350 0    50   ~ 0
+KEYCOL3
+Text Label 5050 4500 0    50   ~ 0
+KEYCOL2
+Text Label 5050 5750 0    50   ~ 0
+ONSWITCH_1
+Text Label 5050 6150 0    50   ~ 0
+ONSWITCH_2
+Text Label 5050 4650 0    50   ~ 0
+KEYCOL1
+Text Label 5050 4800 0    50   ~ 0
+KEYCOL0
+Text Label 5050 4950 0    50   ~ 0
+REF_LED_1
+Text Label 5050 5150 0    50   ~ 0
+REF_LED_OFF
+$Comp
+L Device:LED_Small_ALT D3
+U 1 1 69A1D7D3
+P 7300 5050
+F 0 "D3" V 7346 5148 50  0000 L CNN
+F 1 "POWER/REF (GREEN)" V 7255 5148 50  0000 L CNN
+F 2 "" V 7300 5050 50  0001 C CNN
+F 3 "~" V 7300 5050 50  0001 C CNN
+	1    7300 5050
+	0    1    -1   0   
+$EndComp
+Text Label 2450 2250 2    20   ~ 0
+KEYROW1
+Text Label 2450 2300 2    20   ~ 0
+KEYROW2
+Text Label 2450 2350 2    20   ~ 0
+KEYROW3
+Text Label 2450 2400 2    20   ~ 0
+KEYROW4
+Text Label 2450 2450 2    20   ~ 0
+KEYCOL3
+Text Label 2450 2500 2    20   ~ 0
+KEYCOL2
+Text Label 2450 2550 2    20   ~ 0
+POWER_LED1
+Text Label 2450 2600 2    20   ~ 0
+POWER_LED2
+Text Label 2450 2650 2    20   ~ 0
+ONSWITCH_1
+Text Label 2450 2700 2    20   ~ 0
+ONSWITCH_2
+Text Label 2450 2750 2    20   ~ 0
+KEYCOL1
+Text Label 2450 2800 2    20   ~ 0
+KEYCOL0
+Text Label 2450 2850 2    20   ~ 0
+REF_LED_1
+Text Label 2450 2900 2    20   ~ 0
+REF_LED_OFF
+Text Label 2700 2250 2    20   ~ 0
+J14-2
+Text Label 2700 2300 2    20   ~ 0
+J14-3
+Text Label 2700 2350 2    20   ~ 0
+J14-4
+Text Label 2700 2400 2    20   ~ 0
+J14-5
+Text Label 2700 2450 2    20   ~ 0
+J14-6
+Text Label 2700 2500 2    20   ~ 0
+J14-7
+Text Label 2700 2550 2    20   ~ 0
+J14-8
+Text Label 2700 2600 2    20   ~ 0
+J14-9
+Text Label 2700 2650 2    20   ~ 0
+J14-10
+Text Label 2700 2700 2    20   ~ 0
+J14-11
+Text Label 2700 2750 2    20   ~ 0
+J14-12
+Text Label 2700 2800 2    20   ~ 0
+J14-13
+Text Label 2700 2850 2    20   ~ 0
+J14-14
+Text Label 2700 2900 2    20   ~ 0
+J14-15
+$Comp
+L Switch:SW_Push_45deg SW4
+U 1 1 69A6DB7B
+P 5900 4100
+F 0 "SW4" H 5900 4381 50  0000 C CNN
+F 1 "\"UP\"" H 5900 4290 50  0000 L CNB
+F 2 "" H 5900 4100 50  0001 C CNN
+F 3 "~" H 5900 4100 50  0001 C CNN
+	1    5900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW3
+U 1 1 69A6D248
+P 5900 3550
+F 0 "SW3" H 5900 3831 50  0000 C CNN
+F 1 "\"RIGHT\"" H 5900 3740 50  0000 L CNB
+F 2 "" H 5900 3550 50  0001 C CNN
+F 3 "~" H 5900 3550 50  0001 C CNN
+	1    5900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW2
+U 1 1 69A6C9D7
+P 5900 3050
+F 0 "SW2" H 5900 3331 50  0000 C CNN
+F 1 "\"DOWN\"" H 5900 3240 50  0000 L CNB
+F 2 "" H 5900 3050 50  0001 C CNN
+F 3 "~" H 5900 3050 50  0001 C CNN
+	1    5900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW1
+U 1 1 69A6BF2D
+P 5900 2550
+F 0 "SW1" H 5900 2831 50  0000 C CNN
+F 1 "\"ZERO\"" H 5900 2740 50  0000 L CNB
+F 2 "" H 5900 2550 50  0001 C CNN
+F 3 "~" H 5900 2550 50  0001 C CNN
+	1    5900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW5
+U 1 1 69A5270A
+P 6400 2100
+F 0 "SW5" H 6400 2381 50  0000 C CNN
+F 1 "\"MORE\"" H 6400 2290 50  0000 L CNB
+F 2 "" H 6400 2100 50  0001 C CNN
+F 3 "~" H 6400 2100 50  0001 C CNN
+	1    6400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW10
+U 1 1 69A52140
+P 6900 2100
+F 0 "SW10" H 6900 2381 50  0000 C CNN
+F 1 "\"dBm/W\"" H 6900 2290 50  0000 L CNB
+F 2 "" H 6900 2100 50  0001 C CNN
+F 3 "~" H 6900 2100 50  0001 C CNN
+	1    6900 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW15
+U 1 1 69A519E7
+P 7400 2100
+F 0 "SW15" H 7400 2381 50  0000 C CNN
+F 1 "\"PREV\"" H 7400 2290 50  0000 L CNB
+F 2 "" H 7400 2100 50  0001 C CNN
+F 3 "~" H 7400 2100 50  0001 C CNN
+	1    7400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW6
+U 1 1 69A513BA
+P 6400 2550
+F 0 "SW6" H 6400 2831 50  0000 C CNN
+F 1 "\"KB4\"" H 6400 2740 50  0000 L CNB
+F 2 "" H 6400 2550 50  0001 C CNN
+F 3 "~" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW11
+U 1 1 69A50D1F
+P 6900 2550
+F 0 "SW11" H 6900 2831 50  0000 C CNN
+F 1 "\"REL\"" H 6900 2740 50  0000 L CNB
+F 2 "" H 6900 2550 50  0001 C CNN
+F 3 "~" H 6900 2550 50  0001 C CNN
+	1    6900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW16
+U 1 1 69A50557
+P 7400 2550
+F 0 "SW16" H 7400 2831 50  0000 C CNN
+F 1 "\"PRESET\"" H 7400 2740 50  0000 L CNB
+F 2 "" H 7400 2550 50  0001 C CNN
+F 3 "~" H 7400 2550 50  0001 C CNN
+	1    7400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW19
+U 1 1 69990C42
+P 7400 4100
+F 0 "SW19" H 7400 4381 50  0000 C CNN
+F 1 "\"SPLIT\"" H 7400 4290 50  0000 L CNB
+F 2 "" H 7400 4100 50  0001 C CNN
+F 3 "~" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW18
+U 1 1 69990322
+P 7400 3550
+F 0 "SW18" H 7400 3831 50  0000 C CNN
+F 1 "\"UP DOWN\"" H 7400 3740 50  0000 L CNB
+F 2 "" H 7400 3550 50  0001 C CNN
+F 3 "~" H 7400 3550 50  0001 C CNN
+	1    7400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW17
+U 1 1 6998FA40
+P 7400 3050
+F 0 "SW17" H 7400 3331 50  0000 C CNN
+F 1 "\"KB01\"" H 7400 3240 50  0000 L CNB
+F 2 "" H 7400 3050 50  0001 C CNN
+F 3 "~" H 7400 3050 50  0001 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW14
+U 1 1 6998F346
+P 6900 4100
+F 0 "SW14" H 6900 4381 50  0000 C CNN
+F 1 "\"SYSTEM\"" H 6900 4290 50  0000 L CNB
+F 2 "" H 6900 4100 50  0001 C CNN
+F 3 "~" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW13
+U 1 1 6998EC76
+P 6900 3550
+F 0 "SW13" H 6900 3831 50  0000 C CNN
+F 1 "\"SAVE\"" H 6900 3740 50  0000 L CNB
+F 2 "" H 6900 3550 50  0001 C CNN
+F 3 "~" H 6900 3550 50  0001 C CNN
+	1    6900 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW12
+U 1 1 6998E5BC
+P 6900 3050
+F 0 "SW12" H 6900 3331 50  0000 C CNN
+F 1 "\"MEAS\"" H 6900 3240 50  0000 L CNB
+F 2 "" H 6900 3050 50  0001 C CNN
+F 3 "~" H 6900 3050 50  0001 C CNN
+	1    6900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW9
+U 1 1 6998E07B
+P 6400 4100
+F 0 "SW9" H 6400 4381 50  0000 C CNN
+F 1 "\"LEFT\"" H 6400 4290 50  0000 L CNB
+F 2 "" H 6400 4100 50  0001 C CNN
+F 3 "~" H 6400 4100 50  0001 C CNN
+	1    6400 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW8
+U 1 1 6998D92C
+P 6400 3550
+F 0 "SW8" H 6400 3831 50  0000 C CNN
+F 1 "\"KB2\"" H 6400 3740 50  0000 L CNB
+F 2 "" H 6400 3550 50  0001 C CNN
+F 3 "~" H 6400 3550 50  0001 C CNN
+	1    6400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW7
+U 1 1 69986647
+P 6400 3050
+F 0 "SW7" H 6400 3331 50  0000 C CNN
+F 1 "\"KB3\"" H 6400 3240 50  0000 L CNB
+F 2 "" H 6400 3050 50  0001 C CNN
+F 3 "~" H 6400 3050 50  0001 C CNN
+	1    6400 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2250 4600 2250
+Wire Wire Line
+	2700 2300 4550 2300
+Wire Wire Line
+	4550 2300 4550 3150
+Wire Wire Line
+	4500 2350 4500 3650
+Wire Wire Line
+	4450 2400 4450 4200
+Wire Wire Line
+	2700 2450 4400 2450
+Wire Wire Line
+	4400 2450 4400 4350
+Wire Wire Line
+	2700 2500 4350 2500
+Wire Wire Line
+	4350 2500 4350 4500
+Wire Wire Line
+	2700 2550 4300 2550
+Wire Wire Line
+	2700 2600 4250 2600
+Wire Wire Line
+	2700 2700 4150 2700
+Wire Wire Line
+	2700 2750 4100 2750
+Wire Wire Line
+	4100 2750 4100 4650
+Wire Wire Line
+	4050 4800 4050 2800
+Wire Wire Line
+	4050 2800 2700 2800
+Wire Wire Line
+	2700 2850 4000 2850
+Wire Wire Line
+	4000 2850 4000 4950
+Wire Wire Line
+	3950 5150 3950 2900
+Wire Wire Line
+	3950 2900 2700 2900
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 5800 4800
+Connection ~ 6300 4000
+Wire Wire Line
+	6300 4650 6300 4000
+Connection ~ 6800 4000
+Wire Wire Line
+	6800 4500 6800 4000
+Connection ~ 7300 4000
+Wire Wire Line
+	7300 4350 7300 4000
+Wire Wire Line
+	7300 2000 7300 2450
+Connection ~ 7300 3450
+Connection ~ 6800 3450
+Connection ~ 6300 3450
+Connection ~ 5800 3450
+Wire Wire Line
+	6000 4200 6500 4200
+Connection ~ 6000 4200
+Wire Wire Line
+	6000 3650 6500 3650
+Connection ~ 6000 3650
+Wire Wire Line
+	5800 3450 5800 4000
+Wire Wire Line
+	6000 3150 6500 3150
+Connection ~ 6000 3150
+Wire Wire Line
+	5800 2950 5800 3450
+Connection ~ 5800 2950
+Wire Wire Line
+	6000 2650 6500 2650
+Connection ~ 6000 2650
+Wire Wire Line
+	5800 2450 5800 2950
+Wire Wire Line
+	6500 2200 7000 2200
+Connection ~ 6500 2200
+Wire Wire Line
+	6300 2000 6300 2450
+Wire Wire Line
+	7000 2200 7500 2200
+Connection ~ 7000 2200
+Wire Wire Line
+	6800 2000 6800 2450
+Wire Wire Line
+	6500 2650 7000 2650
+Connection ~ 6500 2650
+Wire Wire Line
+	6300 2450 6300 2950
+Connection ~ 6300 2450
+Wire Wire Line
+	7000 2650 7500 2650
+Connection ~ 7000 2650
+Wire Wire Line
+	6800 2450 6800 2950
+Connection ~ 6800 2450
+Wire Wire Line
+	7300 2450 7300 2950
+Connection ~ 7300 2450
+Connection ~ 6800 2950
+Connection ~ 6300 2950
+Wire Wire Line
+	6800 3450 6800 4000
+Wire Wire Line
+	6300 3450 6300 4000
+Wire Wire Line
+	7300 3450 7300 4000
+Wire Wire Line
+	6800 2950 6800 3450
+Wire Wire Line
+	6300 2950 6300 3450
+Wire Wire Line
+	7300 2950 7300 3450
+Wire Wire Line
+	7000 4200 7500 4200
+Connection ~ 7000 4200
+Wire Wire Line
+	6500 4200 7000 4200
+Connection ~ 6500 4200
+Wire Wire Line
+	6500 3650 7000 3650
+Connection ~ 6500 3650
+Wire Wire Line
+	7000 3650 7500 3650
+Connection ~ 7000 3650
+Wire Wire Line
+	7000 3150 7500 3150
+Connection ~ 7000 3150
+Connection ~ 7300 2950
+Wire Wire Line
+	6500 3150 7000 3150
+Connection ~ 6500 3150
+Wire Wire Line
+	4500 3650 6000 3650
+Wire Wire Line
+	4550 3150 6000 3150
+Wire Wire Line
+	4600 2650 6000 2650
+Wire Wire Line
+	2700 2650 4200 2650
+Wire Wire Line
+	5050 4200 6000 4200
+Wire Wire Line
+	4450 4200 6000 4200
+Wire Wire Line
+	4200 5750 8000 5750
+Wire Wire Line
+	4150 6150 8000 6150
+Wire Wire Line
+	4000 4950 7300 4950
+Wire Wire Line
+	3950 5150 7300 5150
+Wire Wire Line
+	4400 4350 7300 4350
+Wire Wire Line
+	4350 4500 6800 4500
+Wire Wire Line
+	4100 4650 6300 4650
+Wire Wire Line
+	4050 4800 5800 4800
+Text Label 2700 2200 2    20   ~ 0
+J14-1
+Text Label 2450 2200 2    20   ~ 0
+KEYROW0
+Wire Wire Line
+	4600 2250 4600 2650
+Wire Wire Line
+	2700 2200 6500 2200
+$Comp
+L Device:LED_Small_ALT D2
+U 1 1 69A1CEDE
+P 7950 5250
+F 0 "D2" V 7996 5348 50  0000 L CNN
+F 1 "POWER/ON (GREEN)" V 7905 5348 50  0000 L CNN
+F 2 "" V 7950 5250 50  0001 C CNN
+F 3 "~" V 7950 5250 50  0001 C CNN
+	1    7950 5250
+	0    1    -1   0   
+$EndComp
+Connection ~ 7300 4950
+Wire Wire Line
+	7300 4950 7950 4950
+$Comp
+L Switch:SW_Push SW?
+U 1 1 69D1DB92
+P 8000 5950
+F 0 "SW?" V 7954 6098 50  0000 L CNN
+F 1 "POWER ON/OFF" V 8045 6395 50  0000 C CNN
+F 2 "" H 8000 6150 50  0001 C CNN
+F 3 "~" H 8000 6150 50  0001 C CNN
+	1    8000 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 5550 7950 5550
+Wire Wire Line
+	4250 2600 4250 5350
+Wire Wire Line
+	4300 2550 4300 5550
+$Comp
+L Device:LED_Small_ALT D1
+U 1 1 69A18D6E
+P 7950 5450
+F 0 "D1" V 7996 5548 50  0000 L CNN
+F 1 "POWER/SBY (RED)" V 7905 5548 50  0000 L CNN
+F 2 "" V 7950 5450 50  0001 C CNN
+F 3 "~" V 7950 5450 50  0001 C CNN
+	1    7950 5450
+	0    1    1    0   
+$EndComp
+Text Label 5050 5350 0    50   ~ 0
+POWER_LED2
+Text Label 5050 5550 0    50   ~ 0
+POWER_LED1
+Wire Wire Line
+	4250 5350 7950 5350
+Wire Wire Line
+	4150 2700 4150 6150
+Wire Wire Line
+	4200 2650 4200 5750
+Wire Wire Line
+	2700 2350 4500 2350
+Wire Wire Line
+	2700 2400 4450 2400
+Connection ~ 7950 5350
+Wire Wire Line
+	7950 4950 7950 5150
+$EndSCHEMATC
