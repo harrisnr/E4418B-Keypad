@@ -13,6 +13,6 @@ The keypad built in to the front panel surrounds the display enabling user inter
 
 In my own experience as in those reported by others, the power button can become unreliable or non-functional. Keys may function spuriously. FWIW darkening around the power pad in my case indicated possible ingress of pullutants, checmical breakdown, or growth of a mould.
 
-Service information for the meter is available, but I could not locate layout information for the keypad. So here is what I found by tracing it and helped me while trying to characterize my own meter's fault(s) and may do so for another enthusiast.
+Service information for the meter is available, but I could not locate layout information for the keypad. So here is what I found by tracing it and helped me while trying to characterize my own meter's fault(s) and may do so for another enthusiast. Repair is most likely by replacement of the FPC - sources can be found on the internet.
 
 NH 2026.
