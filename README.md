@@ -5,7 +5,8 @@ The SVG file contains a multi-layered vector graphics representation of the HP a
 
 The SCH file has a simple matching schematic. It was generated with opensource Kicad.
 
-Background
+Background...
+
 The E4418B is a lagacy RF power meter that probably is still found on electronic workbenches. It requires the addition power sensor front end that is matched to measurement requirements. The combination makes a powerful, maybe costly, addition to a sophisticated workbench even today.
 
 The keypad built in to the front panel surrounds the display enabling user interactive control. Construction materials are principally a flexible silicone membrane with keys that compress 'pads' within a multi-layed flexible printed circuit. The FPC can wear - cracking, delaminating and electrically 'leaking' resulting in malfunction. In my own experience as in others, the power button can become unreliable or non-functional. Keys may beccome unreliable and function spuriously. FWIW darkening around the power pad in my case indicated possible ingress of pullutants from the outside, checmical breakdown, or growth of a mould.
